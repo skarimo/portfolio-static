@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ThirdPage = () => (
+const Contact = () => (
   <Layout>
     <SEO title="Page 3" />
     <h1>Hi from the second page</h1>
@@ -13,4 +13,4 @@ const ThirdPage = () => (
   </Layout>
 )
 
-export default ThirdPage
+export default Contact
