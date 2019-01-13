@@ -2,7 +2,7 @@ import React from 'react'
 
 const Comtact = (props) => {
     return (
-      <div>Comtact page</div>
+      <div>Contact page</div>
     )
   }
 
