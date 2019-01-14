@@ -6,14 +6,14 @@ import { AnimatedSwitch } from 'react-router-transition'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-import Menu from './components/Menu'
+import Header from './components/Header'
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <React.Fragment>
-          <Menu />
+          <Header />
             <AnimatedSwitch
               atEnter={{ opacity: 0 }}
               atLeave={{ opacity: 0.01 }}

@@ -1,9 +1,15 @@
 import React from 'react'
 
-const Comtact = (props) => {
+const Contact = (props) => {
     return (
-      <div>Contact page</div>
+      <div>
+        <h1>Contact page</h1>
+
+        <p> Testing ---  Testing ---  Testing---  Testing---  Testing---  Testing---  Testing
+        ---  Testing---  Testing---  Testing---  Testing---  Testing---  Testing---  Testing---  Testing
+      ---  Testing---  Testing---  Testing---  Testing---  Testing---  Testing---  Testing---  Testing</p>
+      </div>
     )
   }
 
-export default Comtact
+export default Contact
