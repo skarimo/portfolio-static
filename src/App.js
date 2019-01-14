@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { AnimatedSwitch } from 'react-router-transition'
 
 import Home from './components/Home'
 import Contact from './components/Contact'
@@ -13,11 +14,16 @@ class App extends Component {
       <BrowserRouter>
         <React.Fragment>
           <Menu />
-          <Switch>
+            <AnimatedSwitch
+    atEnter={{ opacity: 0 }}
+    atLeave={{ opacity: 0 }}
+    atActive={{ opacity: 1 }}
+    className="switch-wrapper"
+  >
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/projects" component={Projects} />
             <Route path="/" component={Home} />
-          </Switch>
+          </AnimatedSwitch>
         </React.Fragment>
       </BrowserRouter>
     );

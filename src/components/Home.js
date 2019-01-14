@@ -10,7 +10,7 @@ const Home = (props) => {
         sunt aute, pariatur cillum sunt pariatur tamen o an elit laboris et laborum ne
         pariatur, se velit quid nisi eiusmod. Deserunt legam quae mentitum quorum.Dolor
         o fabulas ea noster, nisi ita ut fugiat eiusmod ita tamen iis doctrina ut
-        multos, hic cillum ea multos. Possumus quo sint arbitror, ne quem anim nam 
+        multos, hic cillum ea multos. Possumus quo sint arbitror, ne quem anim nam
         singulis. Aliquip quid de litteris concursionibus. Nulla consectetur doctrina
         sunt aliquip, nescius firmissimum est consequat te culpa possumus excepteur,
         expetendis o nescius est excepteur culpa arbitror ubi veniam ullamco voluptate
