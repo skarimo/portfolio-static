@@ -15,14 +15,13 @@ class App extends Component {
         <React.Fragment>
           <Menu />
             <AnimatedSwitch
-    atEnter={{ opacity: 0 }}
-    atLeave={{ opacity: 0 }}
-    atActive={{ opacity: 1 }}
-    className="switch-wrapper"
-  >
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/projects" component={Projects} />
-            <Route path="/" component={Home} />
+              atEnter={{ opacity: 0 }}
+              atLeave={{ opacity: 0.01 }}
+              atActive={{ opacity: 1 }}
+              className="switch-wrapper">
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="/projects" component={Projects} />
+                <Route path="/" component={Home} />
           </AnimatedSwitch>
         </React.Fragment>
       </BrowserRouter>
