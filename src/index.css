@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Nixie+One');
-
+/* @import url('https://fonts.googleapis.com/css?family=Nixie+One'); */
+/* @import url('https://fonts.googleapis.com/css?family=Coiny'); */
+/* @import url('https://fonts.googleapis.com/css?family=Staatliches'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Nixie One', cursive;
+  /* font-family: 'Nixie One', cursive; */
+  /* font-family: 'Coiny', cursive; */
+  /* font-family: 'Staatliches', cursive; */
+  font-family: 'Roboto', sans-serif;
+
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
   width: 50%;
   padding: 10px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {

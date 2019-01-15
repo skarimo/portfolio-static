@@ -3,28 +3,7 @@ body {
   background-image: url("background2.jpg");
   background-color: black;
   background-size: 100%;
-  color: white;
-}
-
-#header {
-  background:rgba(0,0,0,0.7);
-}
-
-.main-body {
-  background:rgba(0,0,0,0.7);
-}
-
-.switch-wrapper {
-  position: relative;
-}
-
-.switch-wrapper > div {
-  position: absolute;
-}
-
-#header {
-  text-align: center;
-  margin-top: 10%;
+  color: charcoal;
 }
 
 #header > h1 {
@@ -32,9 +11,37 @@ body {
   margin: 10px;
 }
 
+/* #header {
+  width: auto;
+  height: auto;
+  background:rgba(0,0,0,0.85);
+} */
+
+/* .main-body {
+  background:rgba(0,0,0,0.8);
+  color: white;
+} */
+
+.switch-wrapper {
+  position: relative;
+  /* background:rgba(0,0,0,0.8);
+  color: white; */
+}
+
+.switch-wrapper > div {
+  position: absolute;
+  background:rgba(0,0,0,0.8);
+  color: white;
+}
+
+#header {
+  text-align: center;
+  margin-top: 10%;
+}
+
 nav a {
   color: pink;
-  font-size: 20px;
+  font-size: 30px;
   position: relative;
   margin: 10px 0;
   display: inline-block;
@@ -78,6 +85,10 @@ nav a:hover::after {
   padding: 6px 8px 6px 16px;
   display: block;
   padding: 10px;
+  border-style: solid;
+  border-color: black;
+  margin: 5px;
+  background-color: lightblue;
 }
 
 .social-logo {
