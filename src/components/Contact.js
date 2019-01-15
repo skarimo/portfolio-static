@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = (props) => {
     return (
-      <div>
+      <div className="main-body">
         <h1>Contact page</h1>
 
         <p> Testing ---  Testing ---  Testing---  Testing---  Testing---  Testing---  Testing

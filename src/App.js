@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <React.Fragment>
+        <div id="main-body">
           <Header />
             <AnimatedSwitch
               atEnter={{ opacity: 0 }}
@@ -23,7 +23,7 @@ class App extends Component {
                 <Route exact path="/projects" component={Projects} />
                 <Route path="/" component={Home} />
           </AnimatedSwitch>
-        </React.Fragment>
+        </div>
       </BrowserRouter>
     );
   }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = (props) => {
     return (
-      <div>
+      <div className="main-body">
         <h1>Home page</h1>
 
         <p> lorem Ita tamen proident, export officia ut appellat. Eu incididunt sed expetendis ex

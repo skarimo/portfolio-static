@@ -1,8 +1,17 @@
 body {
   /* background-image: url("background.jpg"); */
+  background-image: url("background2.jpg");
   background-color: black;
   background-size: 100%;
   color: white;
+}
+
+#header {
+  background:rgba(0,0,0,0.7);
+}
+
+.main-body {
+  background:rgba(0,0,0,0.7);
 }
 
 .switch-wrapper {
@@ -15,14 +24,16 @@ body {
 
 #header {
   text-align: center;
+  margin-top: 10%;
 }
 
 #header > h1 {
   font-size: 100px;
+  margin: 10px;
 }
 
 nav a {
-  color: white;
+  color: pink;
   font-size: 20px;
   position: relative;
   margin: 10px 0;
@@ -57,23 +68,24 @@ nav a:hover::after {
 .sidenav {
   position: fixed;
   z-index: 1;
-  top: 1em;
+  top: 30vh;
   right: 1em;
-  background-color: #111;
   overflow-x: hidden;
+  padding: 10px;
 }
 
-.sidenav img{
+.sidenav img {
   padding: 6px 8px 6px 16px;
-text-decoration: none;
-font-size: 25px;
-color: #818181;
-display: block;
+  display: block;
+  padding: 10px;
 }
-
-
 
 .social-logo {
   width: 50px !important;
   height: 50px !important;
+  padding: 10px;
+}
+
+.social-logo:hover {
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
