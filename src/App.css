@@ -1,6 +1,6 @@
 body {
   /* background-image: url("background.jpg"); */
-  background-color: black; 
+  background-color: black;
   background-size: 100%;
   color: white;
 }
@@ -13,11 +13,17 @@ body {
   position: absolute;
 }
 
+#header {
+  text-align: center;
+}
+
+#header > h1 {
+  font-size: 100px;
+}
 
 nav a {
-  font-family: sans-serif;
-  text-decoration: none;
-  color: gray;
+  color: white;
+  font-size: 20px;
   position: relative;
   margin: 10px 0;
   display: inline-block;
@@ -26,7 +32,7 @@ nav a {
 
 nav a::after {
   content: "";
-  background: blue;
+  background: lightgrey;
   height: 1px;
   position: absolute;
   bottom: 0;
@@ -46,4 +52,28 @@ nav a:hover ~ a::after {
 nav a:hover::after {
   left: 0;
   right: 0;
+}
+
+.sidenav {
+  position: fixed;
+  z-index: 1;
+  top: 1em;
+  right: 1em;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+.sidenav img{
+  padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+}
+
+
+
+.social-logo {
+  width: 50px !important;
+  height: 50px !important;
 }
