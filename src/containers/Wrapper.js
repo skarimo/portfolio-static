@@ -22,9 +22,11 @@ class Wrapper extends Component {
        <UserInfo />
        <div className='body-wrapper' style={{
            display: 'flex',
-           flexDirection: 'row',
-           flexWrap: 'wrap',
-           width: '70%'
+           flexDirection: 'column',
+           maxWidth: '67%',
+           padding: '10px 10px 10px 10px',
+           border: '1px solid #BFBFBF',
+           margin: '10px',
           }}
            >
           <Projects />
