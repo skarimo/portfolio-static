@@ -1,9 +1,18 @@
 import React from 'react'
+import Headshot from './headshot.png'
 
-const Home = (props) => {
+const UserInfo = (props) => {
     return (
-      <div className="main-body">
-        <h1>Home page</h1>
+      <div className="main-body-home"
+        style={{
+          display: 'fixed',
+          height: '100vh',
+          width: '30%'
+        }}
+        >
+        <img id='headshot'src={Headshot} style={{
+            width: '80%'
+          }}/>
 
         <p> lorem Ita tamen proident, export officia ut appellat. Eu incididunt sed expetendis ex
         ea legam probant laboris, aliquip labore quem deserunt sint ab nam in veniam
@@ -19,4 +28,4 @@ const Home = (props) => {
     )
   }
 
-export default Home
+export default UserInfo
